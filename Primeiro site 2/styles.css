@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+    font-weight: 400;
+
+}
+
+
+.container {
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.caixa1 {
+
+    display: inline-block;
+    width: 65%;
+    margin-top: 20%;
+    margin-left: 6%;
+}
+
+
+.caixa2 {
+
+    position: absolute;
+    display: inline-block;
+    height: 100vh;
+    width: 40%;
+    background-color: rgba(93, 93, 125, 0.16)
+}
+
+
+
+img {
+    position: relative;
+    top: 17%;
+    right: 148px;
+
+
+}
+
+
+h1 {
+
+
+    font-size: 70px;
+    line-height: 80px;
+    color: rgba(93, 93, 125, 1);
+
+}
+
+p {
+    width: 684px;
+    text-align: justify;
+    font-size: 28px;
+    line-height: 48px;
+    color: rgba(93, 93, 125, 1);
+    opacity: 0.6;
+    margin: 15px 0px;
+}
+
+
+button {
+
+    Width: 269px;
+    Height: 62px;
+    opacity: 1;
+    top: -625px;
+    left: -6773px;
+    color: white;
+    background-color: rgba(148, 153, 234, 1);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+button:active {
+    opacity: 0.5;
+}
+
+
+a {
+
+    margin-right: 41px;
+    font-size: 28px;
+    cursor: pointer;
+    color: rgba(93, 93, 125, 1);
+
+}
+
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.3;
+}
+
+
+.work {
+    opacity: 0.5;
+}
+
+header {
+
+    margin: 24px 0px 0px 30px;
+}
+
+
+@media screen and (max-width: 1268px) {
+    .caixa1 {
+
+        width: 100%;
+        height: 50vh;
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .caixa2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 40px;
+
+
+    }
+
+    img {
+        position: static;
+        width: 90%;
+
+    }
+
+    header {
+
+        display: none;
+
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0px 50px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        width: auto;
+        margin: 15px 40px;
+        text-align: center;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .caixa1 {
+        height: 70%;
+    }
+
+}
